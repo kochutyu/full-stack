@@ -1,11 +1,12 @@
 module.exports.login = function (req, res) {
-    res.status(200).json({
-        login: true
-    });
+  res.status(200).json({
+    login: true
+  })
 }
 
+
 module.exports.register = function (req, res) {
-    res.status(200).json({
-        register: true
-    });
+  res.status(200).json({
+    register: true
+  })
 }
